@@ -38,7 +38,7 @@ In general, the layout consists of :
 3. Three buttons laid out vertically
 4. 16px vertical padding between the buttons (Note: there are several possible solutions but if you
    want the unit tests to pass, use `SizedBox`)
-5. 32px padding between the AppBar and the first button
+5. 32px padding between the AppBar and the first button (Note: `SizedBox` desired here as well).
 6. The first button must contain text "Student $name", where `$name` is your name. For example, if
    your name is Ole Norman, then the button must have text "Student Ole Norman".
 7. The other two buttons must contain text as shown in the reference images

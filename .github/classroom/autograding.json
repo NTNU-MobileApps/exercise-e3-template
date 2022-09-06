@@ -29,6 +29,86 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "Three buttons present",
+      "setup": "",
+      "run": "flutter test --name='Three buttons present'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Vertical button layout",
+      "setup": "",
+      "run": "flutter test --name='Vertical button layout'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Spacing between AppBard and first button",
+      "setup": "",
+      "run": "flutter test --name='Spacing between AppBard and first button'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Spacing between buttons",
+      "setup": "",
+      "run": "flutter test --name='Spacing between buttons'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Student on the first button",
+      "setup": "",
+      "run": "flutter test --name='Student on the first button'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Chuck on the second button",
+      "setup": "",
+      "run": "flutter test --name='Chuck on the second button'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Knock Knock, you're out",
+      "setup": "",
+      "run": "flutter test --name='Knock Knock, you're out'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Third button is disabled",
+      "setup": "",
+      "run": "flutter test --name='Third button is disabled'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
