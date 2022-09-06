@@ -20,8 +20,8 @@ To run the tests locally, execute the following command in a terminal: `flutter 
 
 ## Instructions
 
-Create a Flutter application with a single page which looks as close to this _reference image_ as reasonably possible (
-you don't need to get the clock right 😉):
+Open the provided Flutter application and extend it. The app must contain a single page which looks as close to this _
+reference image_ as reasonably possible (you don't need to get the clock right 😉):
 
 <img alt="Reference image for the solution" src="reference_image.png" title="Reference image" width="540"/>
 
