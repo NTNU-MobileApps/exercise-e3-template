@@ -81,7 +81,7 @@ void main() {
     expect(buttonWithText, equals(secondButton));
   });
 
-  testWidgets("Knock Knock, you're out", (tester) async {
+  testWidgets("Knock Knock, you are out", (tester) async {
     // Well, the name of this test is not that descriptive, is it? :)
     await tester.pumpWidget(const E3SolutionApp());
     final Finder disabledText = find.text("Chuck disables you");

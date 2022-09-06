@@ -91,9 +91,9 @@
       "points": 10
     },
     {
-      "name": "Knock Knock, you're out",
+      "name": "Knock Knock, you are out",
       "setup": "",
-      "run": "flutter test --name='Knock Knock, you're out'",
+      "run": "flutter test --name='Knock Knock, you are out'",
       "input": "",
       "output": "",
       "comparison": "included",
