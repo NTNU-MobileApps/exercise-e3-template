@@ -13,7 +13,17 @@
     {
       "name": "AppBar has the right text",
       "setup": "",
-      "run": "flutter test --name='AppBar is present'",
+      "run": "flutter test --name='AppBar has the right text'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Grey background color",
+      "setup": "",
+      "run": "flutter test --name='Grey background color'",
       "input": "",
       "output": "",
       "comparison": "included",
