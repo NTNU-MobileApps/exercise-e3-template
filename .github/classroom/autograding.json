@@ -129,6 +129,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "Horizontal padding",
+      "setup": "",
+      "run": "flutter test --name='Horizontal padding'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
