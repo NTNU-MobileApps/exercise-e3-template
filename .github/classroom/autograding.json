@@ -109,6 +109,26 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "Button font size",
+      "setup": "",
+      "run": "flutter test --name='Button font size'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "First button is bold",
+      "setup": "",
+      "run": "flutter test --name='First button is bold'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
