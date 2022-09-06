@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "AppBar is present",
+      "setup": "",
+      "run": "flutter test --name='AppBar is present'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "AppBar has the right text",
+      "setup": "",
+      "run": "flutter test --name='AppBar is present'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
