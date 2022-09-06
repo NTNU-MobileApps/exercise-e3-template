@@ -99,6 +99,26 @@ void main() {
     expect(buttonWithText, equals(thirdButton));
   });
 
+  testWidgets("First button is enabled", (tester) async {
+    await tester.pumpWidget(const E3SolutionApp());
+
+    final Finder firstButtonFinder = find.byType(ElevatedButton).at(0);
+    expect(firstButtonFinder, findsOneWidget);
+    final ElevatedButton firstButton =
+        tester.element(firstButtonFinder).widget as ElevatedButton;
+    expect(firstButton.enabled, isTrue);
+  });
+
+  testWidgets("Second button is enabled", (tester) async {
+    await tester.pumpWidget(const E3SolutionApp());
+
+    final Finder secondButtonFinder = find.byType(ElevatedButton).at(0);
+    expect(secondButtonFinder, findsOneWidget);
+    final ElevatedButton secondButton =
+        tester.element(secondButtonFinder).widget as ElevatedButton;
+    expect(secondButton.enabled, isTrue);
+  });
+
   testWidgets("Third button is disabled", (tester) async {
     await tester.pumpWidget(const E3SolutionApp());
 

@@ -101,6 +101,26 @@
       "points": 10
     },
     {
+      "name": "First button is enabled",
+      "setup": "",
+      "run": "flutter test --name='First button is enabled'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Second button is enabled",
+      "setup": "",
+      "run": "flutter test --name='Second button is enabled'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
       "name": "Third button is disabled",
       "setup": "",
       "run": "flutter test --name='Third button is disabled'",
